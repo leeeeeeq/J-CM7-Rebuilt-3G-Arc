@@ -1,1 +1,16 @@
 [Arc LT15i & Arc S Lt18i]Rebuilted CM7 in 3G VM_SPLIT way used for MIUI porting for Arc
+
+Something you may want to know:
+This is CM7.2.0 rom compiled from source by JasonStein in 3G VM_SPLIT way.It's a full CM7 rom and it's bootable.It's used for MIUI porting but you can also treat it like a normal CM7 rom and have fun with it because it can be boot up by using BlendMIUI kernel which means you can flash my MIUI rom and My CM7 rom and shift without flashing the kernel.
+Since my CM7 is built in different way so the kernel provided by CM and FXP can not be used to boot it.The boot.img inside folder is the one you need to flash to make it works correctly which is BlendMIUI kernel as I mentioned before.
+
+By the way,you can check the building date in build.prop because I will recompile it per week(I'm not sure,maybe 1-2 weeks).
+
+How to flash it?
+1.Download sources from github.
+2.Pack the META-INF folder and system folder into .zip format and put it into your SD-card.
+3.Using fastboot to flash the kernel which named as boot.img provided inside the folder.
+4.Flash the .zip rom by using CWM-recovery.
+
+
+My E-mail:JasonStein@live.cn
